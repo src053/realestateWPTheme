@@ -1,5 +1,12 @@
 /*
 Theme Name: Generic RA theme
 Author: Matthew Hellen
+Author URI: https://github.com/src053/realestateWPTheme
 Version: 1.0
 */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
