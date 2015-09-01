@@ -12,7 +12,9 @@
     <!-- site-header -->
     <header class="site-header">
         <H1><a href="<?php echo home_url(); ?>"><?php bloginfo('name');?></a></H1>
-        <h5><?php bloginfo('description'); ?></h5>
+        <h5><?php bloginfo('description'); ?><?php if (is_page('about-me')) {?>
+        - here is the changed page
+        <?php }?></h5>
         <nav class="site-nav">
         <?php 
             $args = array(
