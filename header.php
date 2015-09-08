@@ -3,7 +3,7 @@
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width">
-        <title><?php bloginfo(name);?></title>
+        <title><?php bloginfo('name');?></title>
         <?php wp_head(); ?>
     </head>
 
@@ -11,6 +11,9 @@
 <div class="container">
     <!-- site-header -->
     <header class="site-header">
+
+        <!-- hd-search-->
+        <?php get_search_form(); ?>
         <H1><a href="<?php echo home_url(); ?>"><?php bloginfo('name');?></a></H1>
         <h5><?php bloginfo('description'); ?><?php if (is_page('about-me')) {?>
         - here is the changed page

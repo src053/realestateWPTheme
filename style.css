@@ -202,3 +202,27 @@ p.post-info a:link,
 p.post-info a:visited {
     color: #999;
 }
+
+/* Search */
+#searchform {
+    float: right;
+}
+
+#searchform label {
+    position: absolute;
+    left: -9999px;
+}
+
+#searchform #searchsubmit {
+    background-color: #006ec3;
+    color: #FFF;
+    padding: 5px 14px;
+    border: none;
+    vertical-align: top;
+
+}
+
+#searchform #s {
+    vertical-align: top;
+    padding: 3px 0;
+}
